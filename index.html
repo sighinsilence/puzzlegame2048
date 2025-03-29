@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play the classic 2048 puzzle game online for free. Combine matching numbers to reach the elusive 2048 tile and beyond!">
+    <title>2048 Puzzle Game - Combine Numbers and Test Your Strategy</title>
+    <link rel="canonical" href="https://puzzlegame2048.com/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-indigo': '#5856D6',
+                        'apple-orange': '#FF9500',
+                        'apple-pink': '#FF2D55',
+                        'apple-purple': '#AF52DE',
+                        'apple-red': '#FF3B30',
+                        'apple-teal': '#5AC8FA',
+                        'apple-yellow': '#FFCC00',
+                        'apple-gray': '#8E8E93',
+                        'apple-lightgray': '#F2F2F7',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-lightgray min-h-screen font-sans">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-apple-blue text-center">2048 Puzzle Game</h1>
+            <p class="text-center text-gray-600 mt-2 max-w-2xl mx-auto">
+                A captivating number puzzle where you merge tiles and challenge your strategic thinking to reach the 2048 tile.
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="p-4 bg-apple-blue text-white">
+                    <h2 class="text-xl font-bold">Play 2048 Online</h2>
+                </div>
+                <div class="p-4 flex justify-center">
+                    <div class="w-full max-w-md aspect-square">
+                        <iframe src="https://play2048.co/" 
+                                class="w-full h-full border-0" 
+                                allowfullscreen
+                                title="2048 Puzzle Game"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-apple-purple mb-4">How to Play 2048</h2>
+            <div class="space-y-4">
+                <p>2048 is an addictive sliding puzzle game that challenges your brain. The goal is simple yet tricky: combine matching number tiles to create a tile with the number 2048.</p>
+                <ol class="list-decimal pl-5 space-y-2">
+                    <li>Use your arrow keys (or swipe on mobile) to move all tiles in one direction</li>
+                    <li>When two tiles with the same number touch, they merge into one tile with double the value</li>
+                    <li>After each move, a new tile with a value of 2 or 4 appears randomly on the board</li>
+                    <li>Continue combining tiles to reach the coveted 2048 tile</li>
+                    <li>The game ends when you can no longer make moves</li>
+                </ol>
+                <p>While reaching 2048 is the main goal, you can continue playing to achieve even higher numbers and improve your high score!</p>
+            </div>
+        </section>
+
+        <section class="mb-12 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-apple-green mb-4">Tips & Strategies</h2>
+            <div class="space-y-4">
+                <p>Master 2048 with these proven strategies:</p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Build a chain of increasing values in a corner</li>
+                    <li>Keep your highest tile in one corner and build around it</li>
+                    <li>Focus on maintaining clear paths for merging</li>
+                    <li>Plan several moves ahead instead of reacting to each new tile</li>
+                    <li>When in doubt, stick to moving in just 2-3 directions rather than all four</li>
+                </ul>
+                <p>The beauty of 2048 lies in its simplicity, but mastering it requires strategic thinking and planning!</p>
+            </div>
+        </section>
+
+        <section class="mb-12 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-apple-orange mb-4">About 2048</h2>
+            <div class="space-y-4">
+                <p>2048 was created by Italian developer Gabriele Cirulli in March 2014. It quickly became a viral sensation, with millions of players worldwide becoming addicted to its simple yet challenging gameplay.</p>
+                <p>The game was inspired by earlier titles like "Threes!" and combines elements of sliding tile puzzles with number-matching mechanics. Despite its simple appearance, 2048 offers nearly endless replay value as players strive to improve their strategies and achieve higher scores.</p>
+                <p>While reaching the 2048 tile is the named goal, skilled players can continue well beyond, creating tiles numbered 4096, 8192, and even 16384 or higher!</p>
+            </div>
+        </section>
+
+        <section class="mb-12 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-apple-red mb-4">Why People Love 2048</h2>
+            <div class="space-y-4">
+                <p>The worldwide popularity of 2048 can be attributed to several factors:</p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Simple rules that anyone can learn in seconds</li>
+                    <li>Challenging gameplay that rewards strategic thinking</li>
+                    <li>Quick play sessions that fit into short breaks</li>
+                    <li>The satisfaction of watching numbers grow exponentially</li>
+                    <li>The "just one more try" addictive quality</li>
+                    <li>No time pressure, allowing for thoughtful decision-making</li>
+                </ul>
+                <p>Whether you're a casual gamer looking for a quick mental challenge or a puzzle enthusiast seeking to optimize your strategy, 2048 offers something for everyone.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2025 puzzlegame2048.com - Play the classic 2048 puzzle game online</p>
+                </div>
+                <div>
+                    <p>The original 2048 game was created by <a href="https://github.com/gabrielecirulli" class="text-apple-blue hover:underline">Gabriele Cirulli</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
